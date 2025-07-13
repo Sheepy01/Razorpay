@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.companiesList {
+    animation: 10s infinite linear moveCompanies;
+}
+
+@keyframes moveCompanies {
+    0% {
+        top:0;
+    }
+    100% {
+        top:-50%;
+    }
+}
